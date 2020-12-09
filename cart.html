@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"><link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" >
+        <link rel="stylesheet" href="style1.css">
+        <title>cart</title>
+    </head>
+<body style="background-color: #f1f3f6; ">
+    
+
+    <nav class="navbar navbar-expand-md navbar-light bg-primary position-sticky fixed-top" >
+        <a class="navbar-brand pl-md-5 ml-md-5" href="#"> <img src="bigstore.jpg" alt="Icon" class="big"></a>
+      
+    
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <!-- <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+                <form class="form-inline my-2 my-lg-0 rel">
+                    <input type="text" class=" input1 small " placeholder="Search for products,Brands and more..." aria-label="Search">
+                   
+                  </form>
+            </li>   
+          </ul> -->
+
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+                <form class="form-inline my-2 my-lg-0 rel">
+                    <input type="text" class=" input1 small " placeholder="Search for products,Brands and more..." aria-label="Search">
+                    <!-- <i class="fa fa-search Search1" aria-hidden="true"></i> -->
+                    <button type="submit" class="butt1 med" >Login</button> <span class="sr-only">(current)</span>
+                  </form>
+            </li>
+          </ul>
+          <ul class="navbar-nav">
+            <li class="nav-item" style="line-height: 2.5;">
+              <a href="http://127.0.0.1:5500/index.html" style="color: black;text-decoration: none;"> <span  class="med  pr-4 " style="color: black;">Home </span>
+              </a>
+            </li>
+            
+          <li class="nav-item dropdown pr-4">
+            <a class="nav-link dropdown-toggle med" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"style="color: black;">
+              More
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown" style="width:209px;">
+              <a class="dropdown-item" href="#">Action</a>
+              <a class="dropdown-item" href="#">Another action</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">Something else here</a>
+            </div>
+          </li>
+          <li class="nav-item" style="line-height: 2.5;">
+          <span  class="med  pr-4 " style="color: black;">Cart <i style="color: white;font-size: 20px;" class="fa fa-shopping-cart " ></i><span id="showCartItem" class="m-2 bg-light px-1"></span></span>
+      
+        </li>
+        </ul>
+
+          <div class="mr-5 pr-5">
+            <button type="submit" class="butt1 med" >Login</button> 
+    </div>
+        </div>
+      </nav>
+    
+      <div class="cart1 mx-auto px-2 " id="display3" >
+     <!-- <div class="cart1a  mt-5">
+
+        <div class="abc  ">
+   
+            <h3>My Cart (1)</h3>
+           
+            <div class="flex justify-content-md-center"> 
+              <span class="blue "><i class="fa fa-map-marker" aria-hidden="true"></i></span> 
+              <span class="blue">Deliver to</span>
+              <form  class=" ">
+                    <input type="text" class="small bord1 border-bottom border-primary pb-1 w-75" placeholder="Enter Delivery Pincode">
+                    <span><a href="#">check</a> </span>
+              </form>
+             
+          </div>
+          </div>
+
+        <div class="cart2 border-top py-4">
+            <div class="text-center">
+            <img class="h-100 py-2 " src="samsung.jpg" alt="Card image">
+        </div>
+
+        <div class="cart3 text-center">
+           <button class="cart3a" style="outline-style: none;">-</button> 
+           <input class="cart3b text-center" type="text" name="number" value="1" maxlength="1">
+           <button class="cart3a" style="outline-style: none;"> +</button> 
+        </div>
+
+            <div class="cart4 pt-2" >
+              <h4 class="small mb-2">Samsung Galaxy Watch 46 mm Silver Smartwatch  </h4>
+              <p class="gray ml-0 mb-2" style="font-size: 12px;">Black Strap Regular</p>
+              <p class="mb-2" style="font-size: 12px;"> <button class="btn2">4.5<i class="far fa fa-star" style="margin-left: 4px;"></i></button>
+                  <span class="gray">444 Ratings & 122 Reviews</span></p>
+                  <p class="mb-1"> <span style=" font-size: 18px; font-weight: 600;"><i class="fa fa-inr" aria-hidden="true"></i> 23,990</span> 
+                      <span class="line" style="font-size: 14px;"><i class="fa fa-inr" aria-hidden="true"></i> 29,990</span> 
+                      <span class="green" style="font-size: 14px;">20% off</span> 
+                  </p>
+                  
+            </div>
+            <div class="pt-2">
+               <p class="  mb-2" style="font-size: 14px;">Delivery in 3 - 5 days | Free₹40</p> 
+               <p class="gray ml-0 mb-2" style="font-size: 12px;">10 Days Replacement Policy</p>
+          
+            </div>
+
+           <div class="cart5">
+              <a href="#" class="cart5a">SAVE FOR LATER</a>
+              <a href="#" class="cart5a ml-4">REMOVE</a>
+            </div>
+
+
+        </div>
+        
+
+<div class="d-flex justify-content-end pr-4 py-3" style="background-color: white;box-shadow: 0px 0px 15px 0px #dcd6d6;">
+    <button class="btn btn1" style="width: 200px;"> PLACE ORDER</button>
+</div>
+
+     </div>
+
+     <div class="cart6 mt-5 ml-4" style="background-color: white;">
+      
+          <span class="gray cart6a m-0 pl-4">PRICE DETAILS</span> 
+    
+        <div class="cart6c pt-4"> 
+
+      <div class="cart6d">     
+      <span class="pl-4"> Price (1 item)</span>
+      <span class="pr-4">₹71,960</span>
+    </div>
+
+    <div class="cart6d" style="border-bottom: dashed 1px lightgrey;"> 
+      <span  class="pl-4" > Delivery Fee</span>
+      <span class="pr-4">  Free</span>
+    </div>
+
+    <div class="cart6d pt-3" style="font-size: 20px;font-weight: 500; border-bottom: solid 1px lightgrey;"> 
+      <span  class="pl-4">Total Payable</span>
+      <span class="pr-4">₹71,960</span>
+      </div>
+
+    </div>
+
+      <p class="cart6b green m-0 text-center align-self-center">You will save ₹24,000 on this order</p>
+      
+      </div> -->
+
+    </div>
+     
+
+
+
+   <script src="style3.js"></script>
+
+
+      <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+      
+
+</body>
+</html>
+
+
